@@ -1,0 +1,128 @@
+@media (min-width: 1024px) {
+    /* Modal blog */
+    .blog__modal-content {
+        overflow-y: auto;
+        height: 80%;
+    }
+}
+
+@media (min-width: 740px) and (max-width: 1023px) {
+    /* Nav */
+    .nav__responive {
+        display: flex;
+    }
+    #nav {
+        flex: 1;
+        padding: 0 40px;
+    }
+    #nav li a {
+        display: none;
+    }
+    /* Grid */
+    .grid__row {
+        flex-wrap: wrap;
+    }
+    .grid__full-width-2 {
+        width: 80%;
+        display: block;
+        margin: 20px auto;
+    }
+    .grid__column-4 {
+        width: 46%;
+        display: block;
+        margin: 20px auto;
+    }
+    .grid__full-width-3 {
+        width: 46%;
+        margin: 10px auto;
+    }
+    /* Slider */
+    .slider__wrapper {
+        height: 350px;
+    }
+    /* Modal */
+    .modal__nav-li {
+        top: 82px;
+    }
+    /* Photos */
+    .grid__column-4-img {
+        width: 46%;
+        display: block;
+        margin: 10px auto;
+    }
+    .grid__column-3-img {
+        width: 46%;
+        margin: 10px auto;
+    }
+    /* Contacts */
+    .grid__column-4-contacts,
+    .grid__column-8-contacts {
+        width: 100%;
+    }
+    /* Blog modal */
+    .blog__modal-content {
+        overflow-y: auto;
+        height: 80%;
+    }
+}
+
+@media (max-width: 740px) {
+    /* Nav */
+    .nav__responive {
+        display: flex;
+        align-items: center;
+    }
+    #nav {
+        flex: 1;
+        padding: 0 40px;
+    }
+    #nav li a {
+        display: none;
+    }
+    /* Slider */
+    .slider__wrapper {
+        height: 180px;
+    }
+    .slider-next,
+    .slider-prev {
+        width: 40px;
+        height: 40px;
+    }
+    /* About me */
+    .about__me-zoom-p {
+        font-size: 1.7rem;
+    }
+    /* Grid */
+    .grid__row {
+        flex-wrap: wrap;
+    }
+    .grid__column-4,
+    .grid__full-width-3,
+    .grid__full-width-2 {
+        width: 100%;
+    }
+    /* Photos */
+    .grid__column-4-img,
+    .grid__column-3-img {
+        width: 100%;
+        margin: 10px;
+    }
+    /* Modal */
+    .modal__nav-li {
+        width: 50%;
+        top: 82px;
+    }
+    /* Contacts */
+    .grid__column-4-contacts,
+    .grid__column-8-contacts {
+        width: 100%;
+    }
+    .input-name,
+    .input-email {
+        width: 100%;
+    }
+    .contact__me-input--name {
+        display: block;
+        width: 100%;
+    }
+}
